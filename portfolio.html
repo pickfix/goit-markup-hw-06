@@ -47,7 +47,7 @@
         <!-- Галерея -->
         <section class="section galery">
             <div class="container">
-                <h1 class="title-link"> Наши работы</h1>
+                <h1 class="visuall-hidden"> Наши работы</h1>
                 <ul class="button-list">
                     <li class="button-paragraph"><button type="button" class="button-item">Все</button></li>
                     <li class="button-paragraph"><button type="button" class="button-item">Веб-сайты</button></li>
@@ -247,7 +247,19 @@
                     </li>
                 </ul>
             </div>
-
+            <!-- Форма футера -->
+            <form class="footer-form">
+                <span class="footer-form-block">
+                    <label>
+                        <b class="footer-text-email">Підпишіться на розсилку</b>
+                        <input type="email" name="description_user" placeholder="E-mail" class="input-email-footer">
+                    </label>
+                    <button type="submit" class="input-footer-desk">Підписатися<svg height="24" width="24"
+                            class="footer-btn-send">
+                            <use href="./imeges/svg_sprite/symbol-defs.svg#icon-send"></use>
+                        </svg></button>
+                </span>
+            </form>
         </div>
     </footer>
 </body>
