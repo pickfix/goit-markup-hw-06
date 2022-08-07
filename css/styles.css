@@ -877,8 +877,8 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition-property: opacity, visibility;
-  transition-duration: 250ms;
-  transition-timing-function: var(--decor-cubic);
+  transition: 250ms var(--decor-cubic);
+
 }
 
 .modal {
@@ -1107,7 +1107,6 @@ img {
 .modal-form-submit:focus {
   background-color: var(--interactive-bg-color);
   border-color: var(--interactive-bg-color);
-
 
   transition-property: background-color, border-color;
   transition: 250ms var(--decor-cubic);
