@@ -215,6 +215,7 @@ img {
   border-radius: 4px;
   min-width: 200px;
   height: 50px;
+  border: none;
   border-radius: 4px;
   min-width: 200px;
   height: 50px;
@@ -848,6 +849,7 @@ img {
   letter-spacing: 0.06em;
   background-color: var(--akcent-text-color);
   color: var(--main-background-color);
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-left: 10px;
@@ -1001,6 +1003,7 @@ img {
   padding: 16px 12px;
   border-radius: 4px;
   margin: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .area-form-desk::placeholder {
@@ -1096,11 +1099,14 @@ img {
   align-self: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
   border-radius: 4px;
   background-color: var(--akcent-text-color);
   color: var(--main-background-color);
   border-color: var(--akcent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 52px;
 }
 
 .modal-form-submit:hover,
